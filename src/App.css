@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  @apply flex justify-center items-center px-4 sm:px-8 md:px-16 lg:px-[20%];
+}
+.header,
+.footer {
+  @apply flex justify-center items-center px-2 sm:px-4 md:px-8 lg:px-[12%];
+}
+
+::selection {
+  background-color: rgb(255, 123, 123);
+}
