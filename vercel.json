@@ -1,14 +1,4 @@
 {
-  "functions": {
-    "api/index.go": {
-      "includeFiles": "**/*"
-    }
-  },
-  "build": {
-    "env": {
-      "GO_BUILD_FLAGS": "-ldflags '-s -w'"
-    }
-  },
   "rewrites": [
     {
       "source": "/:path((?!api/).*)",
